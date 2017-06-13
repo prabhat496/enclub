@@ -1,16 +1,17 @@
 ---
 layout: project
-title:  "YOUR PROJECT NAME"
-date:   2014-04-25 16:54:46
-author: Marcel Newman
+title:  "MY PROJECT"
+date:   2014-06-25 16:54:46
+author: PRABHAT
 categories:
 - project
-img: portfolio_10.jpg
-thumb: thumb02.jpg
+img: portfolio_09.jpg
+thumb: thumb01.jpg
 carousel:
-- single01.jpg
 - single02.jpg
 - single03.jpg
+- single04.jpg
+- single05.jpg
 tagged: Flat, UI, Development
 client: Wonder Corp.
 website: http://blacktie.co
