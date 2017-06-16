@@ -34,20 +34,25 @@ collections:
 
 # Social networks usernames. Many more available: google-plus, flickr, linked in, etc). Shown in footer.
 social:
-
+  - title: dribbble
+    url:
   - title: facebook
-    url: https://www.facebook.com/EnergyClubIITB/
-  - title: envelope
-    url: enclubiitb@gmail.com
+    url:
+  - title: twitter
+    url:
+  - title: instagram
+    url:
+  - title: tumblr
+    url:
 
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
 address:
   - lines:
-    - Urja Lab
-    - IITB, Mumbai,
-    - India, 400076.
-email: enclubiitb@gmail.com
-tel: na
+    - Some Ave, 987,
+    - 23890, New York,
+    - United States.
+email: hello@solidtheme.com
+tel: +34 8493-4893
 
 
 ### GENERAL DATA FOR VARIOUS LOCATIONS ###
@@ -61,46 +66,46 @@ members:
     social:
       - title: envelope #use for email address
         url: mailto:santnam@gmail.com
-      - title: facebook
-        url: https://www.facebook.com/santnam.bakshi
-  - name: Sai Siddhartha Majji
-    position: Manager
-    text: My life, my rules
+      - title: twitter
+        url: http://twitter.com/handle
+  - name: Paul Jameson
+    position: Lead Designer
+    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
     img: team02.jpg
     social:
       - title: envelope #use for email address
         url: mailto:name@domain.com
       - title: facebook
-        url: 
-  - name: Soumil Chaubal
-    position: Convener
-    text: what I want is not debatable.
-    img: soumil.jpg
+        url: https://www.facebook.com/santnam.bakshi
+  - name: Laura Sommers
+    position: Lead Developer
+    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    img: team03.jpg
     social:
       - title: envelope #use for email address
         url: mailto:name@domain.com
-      - title: facebook
+      - title: twitter
         url: http://twitter.com/handle
-  - name: Prabaht Ranjan
+  - name: Martin Blunt
+    position: Marketing
+    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    img: team04.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:name@domain.com
+      - title: twitter
+        url: http://twitter.com/handle
+  - name: Prabhat Ranjan
     position: Convener
-    text: Be honest to yourself and eventually everything will fall into place.
-    img: prabhat.jpg
+    text: Gives his best in everthing that he do.
+    img: team04.jpg
     social:
       - title: envelope #use for email address
         url: mailto:ranjan496prabhat@gmail.com
       - title: facebook
         url: https://www.facebook.com/prabhat496
-  - name: Govind Menon
-    position: convener
-    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    img: govind.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:govind@gmail.com
-      - title: facebook
-        url: http://twitter.com/handle
 
-# Clients information. Shown on Home and About pages.
+:<!--# Clients information. Shown on Home and About pages.-->
 clients:
   - name: dribbble
     img: client01.png
@@ -112,10 +117,10 @@ clients:
     img: client04.png
 
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: "Energy Club is all about the enthusiatic people to come together and be a part of better and sustainable future. "
+about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
 
 # Testimonial content. Shown on Home and About page.
 testimonial:
-    message: “We are the first generation to be able to end poverty and the last generation that can take steps to avoid the worst impact of climate change.  ”
-    author: Ban Ki-moon
-    position: Secretary General of the United Nations
+    message: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+    author: Marcel Newman
+    position: WEB DESIGNER - BLACKTIE.CO

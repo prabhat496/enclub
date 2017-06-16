@@ -1,18 +1,17 @@
 ---
-layout: project
-title:  "YOUR PROJECT NAME"
-date:   2014-04-25 16:54:46
-author: Marcel Newman
+layout: events
+title:  "MY PROJECT"
+date:   2014-06-25 16:54:46
+venue: leo
 categories:
-- project
-img: portfolio_05.jpg
-thumb: thumb02.jpg
+- events
+img: portfolio_09.jpg
+thumb: thumb01.jpg
 carousel:
-- single01.jpg
 - single02.jpg
 - single03.jpg
-tagged: Flat, UI, Development
-client: Wonder Corp.
+- single04.jpg
+- single05.jpg
 website: http://blacktie.co
 ---
 ####YOUR PROJECT NAME

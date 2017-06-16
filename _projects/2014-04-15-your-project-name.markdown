@@ -2,9 +2,9 @@
 layout: project
 title:  "MY PROJECT"
 date:   2014-06-25 16:54:46
-author: PRABHAT
+venue: leo
 categories:
-- project
+- events
 img: portfolio_09.jpg
 thumb: thumb01.jpg
 carousel:
@@ -12,8 +12,6 @@ carousel:
 - single03.jpg
 - single04.jpg
 - single05.jpg
-tagged: Flat, UI, Development
-client: Wonder Corp.
 website: http://blacktie.co
 ---
 ####YOUR PROJECT NAME
