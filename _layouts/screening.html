@@ -21,10 +21,12 @@ layout: default
             <div class="hline"></div>
             <p><b>Date:</b> {{ page.date | date: "%b %-d, %Y" }}</p>
             <p><b>Venue:</b> {{ page.venue }}</p>
-            <p><b>Categories:</b> {{ page.categories }}</p>
+	    <p><b>Director:</b> {{ page.director }}</p>
+	    <p><b>Run-time:</b> {{ page.run-time }}</p>
+            <p><b>Categories:</b>Screening</p>
             <p><b>Website:</b> <a href="{{ page.website }}">{{ page.website }}</a></p>
         </div>
     </div><! --/row -->
 </div><! --/container -->
 	 
-{% include portfolio.html title="Related Works." limit=5 %}
+{% include portfolio.html title="OTHER EVENTS" limit=5 %}
