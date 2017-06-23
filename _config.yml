@@ -4,8 +4,8 @@
 title: Energy club
 description: "This page is dedicated to Energy Club IITB . Its is the result of motivation by the disaster of climate change and need of renewable energy sources . We discuss about the innovation and ideas and possibilities in modern energy technologies "
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
-baseurl: ""
-url: "https://prabhat496.github.io/enclub"
+baseurl: "/enclub"
+url: "https://prabhat496.github.io"
 
 # Build settings
 markdown: kramdown
