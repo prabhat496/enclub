@@ -5,7 +5,7 @@ title: Energy club
 description: "This page is dedicated to Energy Club IITB . Its is the result of motivation by the disaster of climate change and need of renewable energy sources . We discuss about the innovation and ideas and possibilities in modern energy technologies "
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
 baseurl: "" #important: start with /
-url: "localhost:4000" #"https://prabhat496.github.io/enclub"
+url:  #"https://prabhat496.github.io/enclub"
 
 # Build settings
 markdown: kramdown
@@ -38,7 +38,7 @@ social:
   - title: facebook
     url: https://www.facebook.com/EnergyClubIITB/
   - title: envelope
-    url: enclubiitb@gmail.com
+    url: https://enclubiitb@gmail.com
 
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
 address:
@@ -47,8 +47,7 @@ address:
     - IITB, Mumbai,
     - India, 400076.
 email: enclubiitb@gmail.com
-tel: na
-
+facebook: https://www.facebook.com/EnergyClubIITB/
 
 ### GENERAL DATA FOR VARIOUS LOCATIONS ###
 
@@ -74,7 +73,7 @@ members:
         url: 
   - name: Soumil Chaubal
     position: Convener
-    text: what I want is not debatable.
+    text: What I want is not debatable.
     img: soumil.jpg
     social:
       - title: envelope #use for email address
@@ -118,4 +117,5 @@ about: "Energy Club is all about the enthusiatic people to come together and be 
 testimonial:
     message: “We are the first generation to be able to end poverty and the last generation that can take steps to avoid the worst impact of climate change.  ”
     author: Ban Ki-moon
-    position: Secretary General of the United Nations
+    position: Secretary General of the United Nations  
+
