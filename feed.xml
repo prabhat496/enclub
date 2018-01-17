@@ -1,5 +1,9 @@
 ---
+<<<<<<< HEAD
 
+=======
+layout: none
+>>>>>>> f28e2d46137c42b67a3546d0d642d6771079cd5a
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">

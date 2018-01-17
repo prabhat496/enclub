@@ -1,11 +1,19 @@
 <div class="container mtb">
     <div class="row centered">
         <h3 class="mb">MEET OUR TEAM</h3>
+<<<<<<< HEAD
 	<div class="col-xs-1"></div>
         {% for member in site.members %}
         <div class="col-xs-2">
             <div class="he-wrap tpl6">
             <img src="{{ "/assets/img/members/" | prepend: site.baseurl | prepend: site.url }}{{ member.img }}" alt="">
+=======
+        
+        {% for member in site.members %}
+        <div class="col-lg-3 col-md-3 col-sm-3">
+            <div class="he-wrap tpl6">
+            <img src="{{ "/assets/img/members/" | prepend: site.baseurl }}{{ member.img }}" alt="">
+>>>>>>> f28e2d46137c42b67a3546d0d642d6771079cd5a
                 <div class="he-view">
                     <div class="bg a0" data-animate="fadeIn">
                         <h3 class="a1" data-animate="fadeInDown">Contact Me:</h3>
@@ -21,7 +29,13 @@
             <div class="hline"></div>
         </div><! --/col-lg-3 -->	 	
         {% endfor %}
+<<<<<<< HEAD
 	</div>
 
     </div><! --/row -->
 </div><! --/container -->
+=======
+        
+    </div><! --/row -->
+</div><! --/container -->
+>>>>>>> f28e2d46137c42b67a3546d0d642d6771079cd5a

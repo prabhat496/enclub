@@ -10,6 +10,7 @@ permalink: /blog/
         <! -- BLOG POSTS LIST -->
         <div class="col-lg-8">
 
+<<<<<<< HEAD
             {% for post in site.posts %}
                 <! -- Blog Post -->
                 <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">
@@ -19,6 +20,17 @@ permalink: /blog/
                 <p><csmall>{{ post.date | date: "%b %-d, %Y" }}. | By: {{ post.author }}</csmall></p>
                 {{ post.excerpt }}
                 <p><a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">[Read More]</a></p>
+=======
+            {% for post in site.categories['blog'] %}
+                <! -- Blog Post -->
+                <a href="{{ post.url | prepend: site.baseurl }}">
+                    <img class="img-responsive" src="{{ "/assets/img/blog/" | prepend: site.baseurl }}{{ post.img }}">
+                </a>    
+                <a href="{{ post.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ post.title }}</h3></a>
+                <p><csmall>{{ post.date | date: "%b %-d, %Y" }}. | By: {{ post.author }}</csmall></p>
+                {{ post.excerpt }}
+                <p><a href="{{ post.url | prepend: site.baseurl }}">[Read More]</a></p>
+>>>>>>> f28e2d46137c42b67a3546d0d642d6771079cd5a
                 <div class="hline"></div>
 
                 <div class="spacing"></div>
@@ -26,6 +38,13 @@ permalink: /blog/
 
         </div><! --/col-lg-8 -->
 
+<<<<<<< HEAD
        {% include sidebar.html %}
     </div><! --/row -->
 </div><! --/container -->
+=======
+        {% include sidebar.html %}
+
+    </div><! --/row -->
+</div><! --/container -->
+>>>>>>> f28e2d46137c42b67a3546d0d642d6771079cd5a

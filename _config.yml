@@ -1,11 +1,19 @@
 ### GENERAL SETTINGS ###
 
 # Site settings
+<<<<<<< HEAD
 title: Energy club
 description: "This page is dedicated to Energy Club IITB . Its is the result of motivation by the disaster of climate change and need of renewable energy sources . We discuss about the innovation and ideas and possibilities in modern energy technologies "
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
 baseurl: ""
 url: "https://prabhat496.github.io/"
+=======
+title: SOLID.
+description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+analytics: UA-50546869-2
+baseurl: "/solid-jekyll" #important: start with /
+url: "http://st4ple.github.io"
+>>>>>>> f28e2d46137c42b67a3546d0d642d6771079cd5a
 
 # Build settings
 markdown: kramdown
@@ -13,13 +21,19 @@ permalink: /:categories/:title
 excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
 
 colors:  #in hex code if not noted else
+<<<<<<< HEAD
   primary: "#00b3fe" #"#F70031"
   primary_rgb: "0,179,254" #"247,0,49" #rgb of the primary. Needed in some places for the transparency effect.
+=======
+  primary: "#00b3fe" #"#F70031" 
+  primary_rgb: "0,179,254" #"247,0,49" #rgb of the primary. Needed in some places for the transparency effect.  
+>>>>>>> f28e2d46137c42b67a3546d0d642d6771079cd5a
   secondary: "#384452" #"#33004D"
   link: "#428bca"
   link_hover: "#01b2fe"
   footer_heading: "#ffffff"
   footer_content: "#bfc9d3"
+<<<<<<< HEAD
 
 # Making projects separate from posts
 collections:
@@ -65,10 +79,56 @@ members:
   - name: Sai Siddhartha Majji
     position: Manager
     text: My life, my rules
+=======
+  
+  
+### CONTACT SETTINGS ###
+
+# Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
+social:
+  - title: dribbble
+    url:
+  - title: facebook
+    url:
+  - title: twitter
+    url: 
+  - title: instagram
+    url: 
+  - title: tumblr
+    url: 
+    
+# Postal address (add as many lines as necessary). Shown in footer and on Contact page.
+address:
+  - lines: 
+    - Some Ave, 987,
+    - 23890, New York,
+    - United States.
+email: hello@solidtheme.com
+tel: +34 8493-4893
+
+
+### GENERAL DATA FOR VARIOUS LOCATIONS ###
+    
+# Members information. Shown on About page.
+members:
+  - name: Mark Webber
+    position: CEO
+    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    img: team01.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:name@domain.com
+      - title: twitter
+        url: http://twitter.com/handle
+  - name: Paul Jameson
+    position: Lead Designer
+    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+>>>>>>> f28e2d46137c42b67a3546d0d642d6771079cd5a
     img: team02.jpg
     social:
       - title: envelope #use for email address
         url: mailto:name@domain.com
+<<<<<<< HEAD
       - title: facebook
         url: 
   - name: Soumil Chaubal
@@ -99,6 +159,29 @@ members:
       - title: facebook
         url: http://twitter.com/handle
 
+=======
+      - title: twitter
+        url: http://twitter.com/handle
+  - name: Laura Sommers
+    position: Lead Developer
+    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    img: team03.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:name@domain.com
+      - title: twitter
+        url: http://twitter.com/handle
+  - name: Martin Blunt
+    position: Marketing
+    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    img: team04.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:name@domain.com
+      - title: twitter
+        url: http://twitter.com/handle
+    
+>>>>>>> f28e2d46137c42b67a3546d0d642d6771079cd5a
 # Clients information. Shown on Home and About pages.
 clients:
   - name: dribbble
@@ -109,6 +192,7 @@ clients:
     img: client03.png
   - name: VimeoPro
     img: client04.png
+<<<<<<< HEAD
 
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
 about: "Energy Club is all about the enthusiatic people to come together and be a part of better and sustainable future. "
@@ -119,3 +203,14 @@ testimonial:
     author: Ban Ki-moon
     position: Secretary General of the United Nations  
 
+=======
+    
+# Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
+about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+
+# Testimonial content. Shown on Home and About page. 
+testimonial:
+    message: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+    author: Marcel Newman
+    position: WEB DESIGNER - BLACKTIE.CO
+>>>>>>> f28e2d46137c42b67a3546d0d642d6771079cd5a

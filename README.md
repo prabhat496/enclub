@@ -77,6 +77,9 @@ To publish with [GitHub Pages](https://pages.github.com/), simply create a branc
 If there are problems with loading assets like CSS files and images, make sure that the `baseurl` in the `_config.yml`is set correctly (it should say `/repositoryname`).
 
 If you want to host your website somewhere else than GitHub (or just would like to customize and build your site locally), please check out the [Jekyll documentation](http://jekyllrb.com/). 
+<<<<<<< HEAD
 
 ##License
 This theme is licensed under [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/).
+=======
+>>>>>>> f28e2d46137c42b67a3546d0d642d6771079cd5a

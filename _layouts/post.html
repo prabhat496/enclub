@@ -9,8 +9,13 @@ layout: default
         <! -- SINGLE POST -->
         <div class="col-lg-8">
             <! -- Blog Post  -->
+<<<<<<< HEAD
             <p><img class="img-responsive" src="{{ "/assets/img/blog/" | prepend: site.baseurl | prepend: site.url }}{{ page.img }}"></p>
             <a href="{{ page.url | prepend: site.baseurl | prepend: site.url }}"><h3 class="ctitle">{{ page.title }}</h3></a>
+=======
+            <p><img class="img-responsive" src="{{ "/assets/img/blog/" | prepend: site.baseurl }}{{ page.img }}"></p>
+            <a href="{{ page.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ page.title }}</h3></a>
+>>>>>>> f28e2d46137c42b67a3546d0d642d6771079cd5a
             <p><csmall>{{ page.date | date: "%b %-d, %Y" }}. | By: {{ page.author }}</csmall></p>
               
             {{ content }}
@@ -28,4 +33,8 @@ layout: default
         {% include sidebar.html %}
 
     </div><! --/row -->
+<<<<<<< HEAD
 </div><! --/container -->
+=======
+</div><! --/container -->
+>>>>>>> f28e2d46137c42b67a3546d0d642d6771079cd5a
